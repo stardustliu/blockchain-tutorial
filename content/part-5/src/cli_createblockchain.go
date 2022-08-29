@@ -6,7 +6,7 @@ import (
 )
 
 func (cli *CLI) createBlockchain(address string) {
-	if !ValidateAdress(address) {
+	if !ValidateAddress(address) {
 		log.Panic("Error: Address is not valid")
 	}
 
